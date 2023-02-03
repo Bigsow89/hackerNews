@@ -18,3 +18,15 @@ background: cadetblue;
  box-sizing: border-box;
  box-shadow: 1px 1px 1px 1px black;
 }
+.pagination{
+ 
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  list-style: none;
+  
+}
