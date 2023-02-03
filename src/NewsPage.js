@@ -8,13 +8,13 @@ const NewsPage = () => {
   const [currentPage, setCurrentPage] = useState(0);
   const [articles, setArticles] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
-//   const[totalPages,setTotalPages] = useState(0);
+  // const[totalPages,setTotalPages] = useState(0);
   const [query, setQuery] = useState("");
   const [searchInput, setSearchInput] = useState("");
 
-//   const handlePageChange = (e) => {
-//       setCurrentPage(e.selected);
-//   }
+  // const handlePageChange = (e) => {
+  //     setCurrentPage(e.selected);
+  // }
 
   const handleSubmit = (e) => {
     e.preventDefault();
